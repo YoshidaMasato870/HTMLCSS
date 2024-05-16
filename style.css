@@ -1,0 +1,223 @@
+header{
+    display: inline-block;
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    z-index: 3;
+    }
+@media screen and (max-width: 1080px) {
+    header{
+     display: inline-block;
+     position: fixed;
+     width: 100%;
+     background-color: white;
+     z-index: 10;
+    }   
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    width: 180px;
+    top: 20px;
+    left: 4%;
+}
+@media screen and (max-width:1080px) {
+    .logo{
+     top: 20px;
+    }
+}
+.hamburger{
+    display: inline-block;
+}
+.icon span{
+    position: absolute;
+    right: 50px;
+    width: 25px;
+    height: 2px;
+    background-color: gray;
+    border-radius: 8px;
+}
+.icon span:nth-of-type(1){
+    top: 20px;
+}
+.icon span:nth-of-type(2){
+    top:29px;
+}
+.icon span:nth-of-type(3){
+    bottom: 20px;
+}
+@media screen and (min-width:1080px) {
+    .icon{
+        display: none;
+    }
+}
+ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: -30px;
+    right: 20px;
+    align-items: center;
+    justify-content: end;
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+@media screen and (max-width:1080px){
+    ul{
+        display: none;
+    }
+}
+
+li{
+    margin: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.CONTENT1{
+    font-weight: bold;
+}
+.INTERVIEW{
+    font-weight: bold;
+}
+.FAQ{
+    font-weight: bold;
+}
+.RECRUIT{
+    font-weight: bold;
+}
+.TRAINING{
+    font-weight: bold;
+}
+.freecounseling{
+    font-size: 12px;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+.jinbutu{
+    display: flex;
+    position: absolute;
+    width: 900px;
+    height: auto;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+@media screen and (max-width:767px) {
+    .jinbutu{
+        top: 60px;
+        width: 75%;
+        height: auto;
+    }
+}
+.sankaku1{
+    display: flex;
+    position: absolute;
+    width: 20%;
+    top: 60px;
+    left: 0;
+    z-index: 2;
+}
+@media screen and (max-width: 767px){
+    .sankaku1{
+        width: 30%;
+    }
+}
+.sankaku2{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 500px;
+}
+@media screen and (max-width: 767px) {
+    .sankaku2{
+    display: none;
+    }
+}
+.daenn{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    top: 150px;
+    z-index: 1;
+}
+@media  screen and (max-width:767px) {
+    .daenn{
+    top: 90px;
+    left: 10%;
+    width: 50%;
+    }
+}
+.No1{
+    display: flex;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    z-index: 3;
+}
+@media  screen and (max-width:767px) {
+    .No1{
+    top: 55%;
+    left: 40%;
+    width: 90px;
+    }
+}
+.content{
+    display: block;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    width: fit-content;
+    z-index: 3;
+}
+@media screen and (min-width:767px) and (max-width:1080px){
+    .content{
+    top:40%;
+    left: 5%;
+    width: 80%;
+    }
+}
+@media screen and (max-width:767px) {
+    .content{
+    top: 60%;
+    width: fit-content;
+    left: 0;
+    }
+}
+.setsumei{
+    font-size: 42px;
+}
+@media screen and (max-width:767px) {
+    .setsumei{
+        font-size: 24px;
+    }
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+.freecounseling2{
+    display: block;
+    color: white;
+    background-color: orange;
+    padding: 20px 100px 20px 100px;
+    margin-bottom: 12px;
+    border-radius: 30px;
+}
+.tyusyaku{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: lighter;
+}
